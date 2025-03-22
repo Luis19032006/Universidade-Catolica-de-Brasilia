@@ -7,17 +7,43 @@
 
  </head>
  <body>
- <p> <b>Curriculo</b>       
 
+    <img src="https://th.bing.com/th/id/OIP.jhnLIF_XdT__LTBMerP-xwHaHe?w=167&h=180&c=7&r=0&o=5&pid=1.7" alt="Cristiano Ronaldo, Cabelos pretos, Dentes brancos, Olhos pretos">
+    <h1> Luis Felipe Custodio Pietschmann
+       
+    </h1>
+  <h2> Informações pessoais
+
+  </h2>
+  <h3> Edereço de e-mail:
+
+  </h3> 
+  <p> luis.pietschmann@a.ucb.br
+
+  </p>
+ <h3> Número de telefone:
+
+ </h3>
+  <p>(61) 999874057
+
+  </p>
+  <h3> Endereço;
+
+  </h3>
+ <p> 
+    Aguas Claras
  </p>
-<br>
-<p> <b> idade </b></p>
-<p> 18 anos </p>
- <P> <b> Sobre mim:</b></P>
+ <h2>
+    Perfil
+ </h2>
+ <p> Pouca experiência com HTML e CSS, média experiência com o Construct </p>
 
-<P> Tenho o EM completo. na escola, tive contato com HTML um poco de CSS. fiz um curso de programação de jogos mas não terminei ele. 
-Moro em Brasilia. Cursando Ciencias da Computação 
-</P> 
+  <h2> 
+    Formção Acadêmica:
+  </h2>
+ <p>
+ Ensino Médio completo
+ </p>
 
  </body>
 
