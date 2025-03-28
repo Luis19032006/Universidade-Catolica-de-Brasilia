@@ -1,60 +1,56 @@
 <!DOCTYPE html>
-<html lang '=pt-br'>
-<html>
- <head>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
- <title> Luis Felipe Custodio Pietschmann</title>
+    <title>Luis Felipe Custodio Pietschmann</title>
+</head>
+<body>
 
- </head>
- <body>
+    <!-- Seção de Cabeçalho -->
+    <header>
+        <h1>Luis Felipe Custodio Pietschmann</h1>
+        <img src="https://th.bing.com/th/id/OIP.jhnLIF_XdT__LTBMerP-xwHaHe?w=167&h=180&c=7&r=0&o=5&pid=1.7" alt="Cristiano Ronaldo, Cabelos pretos, Dentes brancos, Olhos pretos">
+    </header>
 
-    <img src="https://th.bing.com/th/id/OIP.jhnLIF_XdT__LTBMerP-xwHaHe?w=167&h=180&c=7&r=0&o=5&pid=1.7" alt="Cristiano Ronaldo, Cabelos pretos, Dentes brancos, Olhos pretos">
-    <h1> Luis Felipe Custodio Pietschmann
-       
-    </h1>
-  <h2> Informações pessoais
+    <!-- Seção Principal -->
+    <main>
+        <h2>Informações Pessoais</h2>
+        <ul> <!-- Lista não ordenada -->
+       <li> 
+        <strong> <!-- Destacar o texto -->
+            Endereço de email:</strong> luis.pietschmann@a.ucb.br
+       </li>
+       <li> 
+         <strong>
+            Número de telefone:</strong> (61) 99987-4057
+       </li>
+    <li>
+        <strong>
+            Endereço:
+        </strong> Águas Claras
+    </li>
+    </ul>
 
-  </h2>
-  <h3> Edereço de e-mail:
+        <h2>Perfil</h2>
+        <p>Pouca experiência com HTML e CSS, média experiência com o Construct 3.</p>
 
-  </h3> 
-  <p> luis.pietschmann@a.ucb.br
+        <h2>Formação Acadêmica:</h2>
+        <p>Ensino Médio completo.</p>
+    </main>
 
-  </p>
- <h3> Número de telefone:
+    <!-- Seção de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="https://github.com/Luis19032006/UBC" target="_blank">Meu GitHub</a></li>
+            <li><a href="https://www.instagram.com/l.f_c.p/ " target="_blank">Meu Instagram</a> </li>
+            <li><a href="https://th.bing.com/th/id/OIP.jhnLIF_XdT__LTBMerP-xwHaHe?w=167&h=180&c=7&r=0&o=5&pid=1.7" target="_blank">Minha foto de perfil</a></li>
+        </ul>
+    </nav>
 
- </h3>
-  <p>(61) 999874057
+    <!-- Seção de Rodapé -->
+    <footer>
+        <p>&copy; 2025 Luis Felipe C. Pietschmann. Todos os direitos reservados.</p>
+    </footer>
 
-  </p>
-  <h3> Endereço;
-
-  </h3>
- <p> 
-    Aguas Claras
- </p>
- <h2>
-    Perfil
- </h2>
- <p> Pouca experiência com HTML e CSS, média experiência com o Construct </p>
-
-  <h2> 
-    Formção Acadêmica:
-  </h2>
- <p>
- Ensino Médio completo
- </p>
-
-
-<div> 
-    https://github.com/Luis19032006/UBC
-</div>
-
-
-
-
- </body>
-
- 
-
+</body>
 </html>
