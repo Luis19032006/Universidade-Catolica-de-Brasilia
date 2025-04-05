@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Card Virtual</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="card">
+            <img  src="img\spider_man_PNG42.png" alt="Homem Aranha." class="perfil-img">
+            <h2 class="nome">Luis Felipe Custodio</h2>
+            <p class="descricao">Cientista da Computação em formação pela UCB.</p>
+            <button class="botao">Contato</button>
+        </div>
+    </body>
+</html>
