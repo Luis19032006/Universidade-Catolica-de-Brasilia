@@ -1,0 +1,83 @@
+:root {
+    --cor-fundo: #f4f4f4;
+    --cor-texto: #333333;
+    --cor-botao-hover: #730054c1;
+    --cor-borda: #4d4d4d;
+    --sombra-card: 9px 8px 30px rgba(0, 0, 0, 0.2);
+    --gradiente-botao: linear-gradient(135deg, #800000);
+    --fonte-principal: "arial", sans-serif;
+    --fonte-destaque: "Georgia", serif;
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 180vh; */
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+ 
+}
+ 
+.card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    box-shadow: var(--sombra-card);
+    border: 2px solid #000000;
+    transition: all 0.3s ease;
+}
+ 
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.3);
+    border-color: #800000;
+}
+ 
+.perfil-img{
+    border-radius: 10%;
+    margin-bottom: 15px;
+    border: 2px solid var(--cor-borda);
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+}
+ 
+.perfil-img:hover {
+    scale: 1.10;
+    /* transform: rotate(-5deg); */
+    transition: transform 0.3s ease;
+}
+ 
+.nome{
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: var(--fonte-destaque);
+    color: var(--cor-texto);
+}
+ 
+.descricao {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 20px;
+    font-family: var(--fonte-principal);
+}
+ 
+.botao{
+    background: var(--gradiente-botao);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+ 
+.botao:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #000000, #800000);
+}
